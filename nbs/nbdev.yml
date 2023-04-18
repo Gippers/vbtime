@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "volleyball-game-times"
+  site-url: "https://Gippers.github.io/volleyball-game-times"
+  description: "Simulation modelling for volleyball act indoor volleyball season"
+  repo-branch: main
+  repo-url: "https://github.com/Gippers/volleyball-game-times"
