@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://Gippers.github.io',
                 'git_url': 'https://github.com/Gippers/volleyball-game-times',
                 'lib_path': 'volleyball_game_times'},
-  'syms': {'volleyball_game_times.core': {'volleyball_game_times.core.foo': ('core.html#foo', 'volleyball_game_times/core.py')}}}
+  'syms': { 'volleyball_game_times.core': {'volleyball_game_times.core.foo': ('core.html#foo', 'volleyball_game_times/core.py')},
+            'volleyball_game_times.scrape_game_data': { 'volleyball_game_times.scrape_game_data.foo': ( 'scrape_game_data.html#foo',
+                                                                                                        'volleyball_game_times/scrape_game_data.py')}}}
