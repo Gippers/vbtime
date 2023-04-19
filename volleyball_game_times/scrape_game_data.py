@@ -11,8 +11,8 @@ from nbdev import *
 import urllib.request
 from bs4 import BeautifulSoup
 from fastcore.test import *
-import re
+import requests
 
 
-# %% ../nbs/01_scrape_game_data.ipynb 4
+# %% ../nbs/01_scrape_game_data.ipynb 11
 def foo(): pass
