@@ -9,9 +9,9 @@ import pandas as pd, pathlib
 #import gluonts
 from nbdev import *
 import urllib.request
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 from fastcore.test import *
-import requests
+#import requests
 
 
 # %% ../nbs/01_scrape_game_data.ipynb 10
