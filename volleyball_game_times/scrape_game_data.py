@@ -14,5 +14,5 @@ from fastcore.test import *
 import requests
 
 
-# %% ../nbs/01_scrape_game_data.ipynb 11
+# %% ../nbs/01_scrape_game_data.ipynb 10
 def foo(): pass

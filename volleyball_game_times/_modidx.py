@@ -7,4 +7,8 @@ d = { 'settings': { 'branch': 'main',
                 'lib_path': 'volleyball_game_times'},
   'syms': { 'volleyball_game_times.core': {'volleyball_game_times.core.foo': ('core.html#foo', 'volleyball_game_times/core.py')},
             'volleyball_game_times.scrape_game_data': { 'volleyball_game_times.scrape_game_data.foo': ( 'scrape_game_data.html#foo',
-                                                                                                        'volleyball_game_times/scrape_game_data.py')}}}
+                                                                                                        'volleyball_game_times/scrape_game_data.py')},
+            'volleyball_game_times.sets': { 'volleyball_game_times.sets.foo': ('set.html#foo', 'volleyball_game_times/sets.py'),
+                                            'volleyball_game_times.sets.vball_set': ('set.html#vball_set', 'volleyball_game_times/sets.py'),
+                                            'volleyball_game_times.sets.vball_set.__init__': ( 'set.html#vball_set.__init__',
+                                                                                               'volleyball_game_times/sets.py')}}}
