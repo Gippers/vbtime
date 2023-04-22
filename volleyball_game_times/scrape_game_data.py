@@ -5,10 +5,10 @@ __all__ = ['foo']
 
 # %% ../nbs/01_scrape_game_data.ipynb 2
 from nbdev.showdoc import *
-import pandas as pd, pathlib
+import pandas as pd
 #import gluonts
 from nbdev import *
-import urllib.request
+#import urllib.request
 #from bs4 import BeautifulSoup
 from fastcore.test import *
 #import requests
