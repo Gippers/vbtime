@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "volleyball-game-times",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "volleyball-game-times",
+    "section": "Install",
+    "text": "Install\npip install volleyball_game_times"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "volleyball-game-times",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "scrape_game_data.html",
+    "href": "scrape_game_data.html",
+    "title": "Scrape Game Data",
+    "section": "",
+    "text": "TODO - check the connection works - Scrape the web page - format correctly the - place into dataframes - if small, save locally\nSee ivi for ideas on how to do.\n\nHow to scrape website with bs4\n#https://www.geeksforgeeks.org/how-to-scrape-data-from-local-html-files-using-python/\n\nvact_url = \"https://scheduler.leaguelobster.com/1108252/capital-volleyball-league/2022-cvl-season/\"\n\n\n# Create object page\n#page = requests.get(vact_url)\n\nCheck that website is accessible, should return code 200\n\n#test_eq(urllib.request.urlopen(vact_url).getcode(), 200)\n\n\n# parser-lxml = Change html to Python friendly format\n# Obtain page's information\n#soup = BeautifulSoup(page.text, \"html.parser\")\n\n\n# Obtain information from tag <table>\n#table1 = soup.find('div', 'class'='schedule-date-container col-xs-12')\n#table1\n\n\nsource\n\nfoo\n\n foo ()"
+  },
+  {
+    "objectID": "set.html",
+    "href": "set.html",
+    "title": "set",
+    "section": "",
+    "text": "Based on this study assume that the length of a point and break between a set are normally distributed and equal to: - TODO should change to be left skewed\nLet PM be the point legth in a mens volleyball game \\[PM \\sim N(4.99, 4.35^2)\\] Let RM be the ress length in a mens volleyball games, \\[RM \\sim N(29.02, 19.44^2)\\]\nLet PW be the point legth in a womens volleyball game \\[PW \\sim N(6.88, 5.92^2)\\] Let RW be the ress length in a womens volleyball games, \\[RW \\sim N(29.92, 18.21^2)\\]\nAssume elite volleyball point times are comparable to ACT club times\nAssume that there are 3 timeouts per set - TODO change this eventually\nAssume one team always gets 25 (doesn’t go above) - Therefore the other team can’t exceed 23\nAssume that the number of points for the second team follows a binomial distribution: \\[X \\sim Bin(23, 0.85)\\]\nsource"
+  },
+  {
+    "objectID": "set.html#tests",
+    "href": "set.html#tests",
+    "title": "set",
+    "section": "Tests",
+    "text": "Tests\nInclude some examples and unit tests below\n\npw_set = VballSet(\"PW\")\n\n\npw_set.GetTime()\n\n1711.295522824047\n\n\n\nsource\n\nfoo\n\n foo ()\n\n\n43 * 6.88\n\n295.84"
+  }
+]
